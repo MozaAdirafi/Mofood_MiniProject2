@@ -1,0 +1,78 @@
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pagination-container{
+    margin-top: 30px;
+}
+    .button-container {
+        margin-top: 20px;
+    }
+
+    .pagination-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #5c5c5c;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    .pagination-button:hover {
+        background-color: #0056b3;
+      }
+    
+    .detail-card {
+        background: rgba(57, 57, 60, 0.6);
+        box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 20px;
+        max-width: 400px; 
+        text-align: center;
+        transition: box-shadow 0.3s, transform 0.3s;
+    }
+    
+    .detail-card:hover {
+        box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.89);
+        transform: scale(1.02);
+    }
+    
+    .detail-card img {
+        width: 100%; 
+        max-height: 300px; 
+        object-fit: cover; 
+        border-radius: 5px;
+        margin-bottom: 20px; 
+    }
+    .detail-card h1{
+    color:#dbd3ff;
+    }
+    
+    
+    .detail-card p {
+        color: #fff;
+        margin: 0; 
+    }
+    
+    .detail-card p {
+        font-size: 16px;
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+    
+    .detail-card p:last-child {
+        margin-top: 15px;
+        font-size: 1.4rem;
+        color: #dbd3ff;
+    }
+    

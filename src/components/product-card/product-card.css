@@ -1,0 +1,84 @@
+.single__product {
+  background: rgba(57, 57, 60, 0.6);
+  box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  cursor: pointer;
+  animation: animate 1s ease-in;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.single__product:hover {
+  box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.89); /* Increase shadow on hover */
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.product__content {
+  padding: 20px;
+  padding-bottom: 15px;
+  backdrop-filter: blur(10px); /* Add blur effect to the content background */
+  border-radius: 10px; /* Ensure content has rounded corners for consistency */
+}
+
+.product__content h6 {
+  color: #fff;
+  text-align: center;
+}
+
+.rating span i {
+  color: #9086cb;;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #fff;
+}
+
+.price span {
+  color: #9086cb;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.shopping__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: #9086cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.product-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product__content h6 {
+    font-size: 0.9rem;
+  }
+  .price {
+    font-size: 0.8rem;
+  }
+  .price span {
+    font-size: 0.9rem;
+  }
+}
