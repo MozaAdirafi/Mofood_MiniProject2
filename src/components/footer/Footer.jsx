@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.css";
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 
@@ -52,7 +51,7 @@ const Footer = () => {
               <div className="logo">
                 <h2 className=" d-flex align-items-center gap-1 mb-4">
                   <span>
-                    <i class="ri-restaurant-fill"></i>
+                    <i className="ri-restaurant-fill"></i>
                   </span>{" "}
                   MoFood
                 </h2>
@@ -91,15 +90,15 @@ const Footer = () => {
 
               <ListGroup>
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-map-pin-line"></i> Jakarta, Indonesia{" "}
+                  <i className="ri-map-pin-line"></i> Jakarta, Indonesia{" "}
                 </ListGroupItem>
 
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-mail-line"></i> mozaadirafi26@gmail.com{" "}
+                  <i className="ri-mail-line"></i> mozaadirafi26@gmail.com{" "}
                 </ListGroupItem>
 
                 <ListGroupItem className="link__item d-flex align-items-center gap-3">
-                  <i class="ri-phone-line"></i> +62 812 233 1231
+                  <i className="ri-phone-line"></i> +62 812 233 1231
                 </ListGroupItem>
               </ListGroup>
             </Col>

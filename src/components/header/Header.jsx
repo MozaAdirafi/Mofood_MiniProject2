@@ -1,7 +1,7 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./header.css";
 import { Container } from "reactstrap";
-import { Link, useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom"; 
 
 const navLinks = [
   {
@@ -41,7 +41,7 @@ const Header = () => {
           <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
               <span>
-                <i class="ri-restaurant-fill"></i>
+                <i className="ri-restaurant-fill"></i>
               </span>{" "}
               MoFood
             </h2>
@@ -63,14 +63,14 @@ const Header = () => {
 
           <div>
             <button className="logout__button" onClick={handleLogout}>
-              <i class="ri-logout-box-line"></i>
+              <i className="ri-logout-box-line"></i>
               Logout
             </button>
           </div>
 
           <div className="mobile__menu">
             <span>
-              <i class="ri-menu-line" onClick={menuToggle}></i>
+              <i className="ri-menu-line" onClick={menuToggle}></i>
             </span>
           </div>
         </div>

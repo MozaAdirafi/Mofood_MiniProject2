@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Container, Row, Col } from "reactstrap";
 import "./choose-us.css";
 import japanfood from "../../assets/images/japanfood.webp";
@@ -29,7 +27,7 @@ const ChooseUs = () => {
               <div className="feature1 d-flex align-items-center gap-5">
                 <div className="single__feature">
                   <span>
-                    <i class="ri-truck-line"></i>
+                    <i className="ri-truck-line"></i>
                   </span>
                   <h6>Free Home Delivery</h6>
                   <p>Savor the Convenience of Prompt Delivery to Your Doorstep</p>
@@ -38,7 +36,7 @@ const ChooseUs = () => {
                 <div className="satisfaction">
                 <div className="single__feature">
                   <span className="feature__icon-two">
-                    <i class="ri-money-dollar-circle-line"></i>
+                    <i className="ri-money-dollar-circle-line"></i>
                   </span>
                   <h6>Satisfaction Guaranteed</h6>
                   <p>Our Commitment to Quality - Your Assurance of Returns and Refunds</p>
@@ -49,7 +47,7 @@ const ChooseUs = () => {
               <div className="feature1 mt-3 d-flex align-items-center gap-5">
                 <div className="single__feature">
                   <span className="feature__icon-3">
-                    <i class="ri-secure-payment-line"></i>
+                    <i className="ri-secure-payment-line"></i>
                   </span>
                   <h6>Seamless and Secure Payments</h6>
                   <p>Relish Worry-Free Transactions with Our Protected Payment Methods</p>
@@ -57,7 +55,7 @@ const ChooseUs = () => {
 
                 <div className="single__feature">
                   <span className="feature__icon-4">
-                    <i class="ri-24-hours-line"></i>
+                    <i className="ri-24-hours-line"></i>
                   </span>
                   <h6>Round-the-Clock Customer Care</h6>
                   <p>Reliable Assistance Available 24/7 to Enhance Your Dining Experience</p>

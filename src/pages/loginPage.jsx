@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import Login from "../components/login/login";
 
 const LoginPage = () => {

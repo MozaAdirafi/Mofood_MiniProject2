@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 import Register from "../components/register/register";
 
 const RegisterPage = () => {

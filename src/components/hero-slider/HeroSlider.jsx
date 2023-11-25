@@ -1,5 +1,4 @@
-import React from "react";
-import { Container } from "reactstrap";
+ import { Container } from "reactstrap";
 import Slider from "react-slick";
 
 import { sliderData } from "../../assets/fake-data/slider";

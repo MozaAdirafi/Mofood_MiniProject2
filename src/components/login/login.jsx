@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import "./login.css";
 import { Link, useNavigate } from "react-router-dom";
@@ -87,7 +87,7 @@ const Login = () => {
         {errorMessage && <p className="error-message">{errorMessage}</p>}
 
         <div className="haveaccount">
-          <Link to="/register" className="white-link">Doesn't have an account? Register</Link>
+          <Link to="/register" className="white-link">Doesnt have an account? Register</Link>
         </div>
       </form>
     </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import "./testimonial.css";
 import testimonialImg1 from "../../assets/images/t1.jpg";
@@ -10,15 +9,7 @@ import titlesvg from "../../assets/images/title-shape.svg";
 import "font-awesome/css/font-awesome.min.css";
 
 const Testimonials = () => {
-  const settings = {
-    infinite: true,
-    dots: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  };
+
 
   const testimonials = [
     {
